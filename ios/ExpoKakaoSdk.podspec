@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'ExpoModulesCore'
   s.dependency 'KakaoSDKCommon'
-    s.dependency 'KakaoSDKAuth'
-    s.dependency 'KakaoSDKUser'
+  s.dependency 'KakaoSDKAuth'
+  s.dependency 'KakaoSDKUser'
 
   # Swift/Objective-C compatibility
   s.pod_target_xcconfig = {

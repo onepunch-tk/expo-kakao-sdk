@@ -2,7 +2,7 @@
   "platforms": ["ios", "android", "web"],
   "ios": {
     "modules": ["ExpoKakaoSdkModule"],
-    "appDelegateSubscribers": ["KakaoDelegate"]
+    "appDelegateSubscribers": ["AppLifecycleDelegate"]
   },
   "android": {
     "modules": ["expo.modules.kakaosdk.ExpoKakaoSdkModule"]

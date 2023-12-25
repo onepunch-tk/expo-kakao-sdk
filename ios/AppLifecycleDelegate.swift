@@ -6,7 +6,7 @@ public class AppLifecycleDelegate: ExpoAppDelegateSubscriber {
     if (AuthApi.isKakaoTalkLoginUrl(url)) {
       return AuthController.handleOpenUrl(url: url)
     }
-    
+
     return false
   }
 }
