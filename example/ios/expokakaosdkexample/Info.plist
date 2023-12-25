@@ -30,9 +30,23 @@
           <string>expo.modules.kakaosdk.example</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>kakao84ef51d482ed475a42ab98f9a46bb0e5</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>
+    <key>KAKAO_APP_KEY</key>
+    <string>84ef51d482ed475a42ab98f9a46bb0e5</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>kakaokompassauth</string>
+      <string>kakaolink</string>
+      <string>kakaoplus</string>
+    </array>
     <key>LSRequiresIPhoneOS</key>
     <true/>
     <key>NSAppTransportSecurity</key>

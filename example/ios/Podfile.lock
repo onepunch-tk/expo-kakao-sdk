@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.7.1)
   - boost (1.76.0)
   - DoubleConversion (1.1.6)
   - EXApplication (5.3.1):
@@ -13,6 +14,9 @@ PODS:
     - ExpoModulesCore
   - ExpoKakaoSdk (0.1.0):
     - ExpoModulesCore
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKUser
   - ExpoKeepAwake (12.3.0):
     - ExpoModulesCore
   - ExpoModulesCore (1.5.12):
@@ -38,6 +42,17 @@ PODS:
   - hermes-engine (0.72.6):
     - hermes-engine/Pre-built (= 0.72.6)
   - hermes-engine/Pre-built (0.72.6)
+  - KakaoSDKAuth (2.15.0):
+    - KakaoSDKCommon (= 2.15.0)
+  - KakaoSDKCommon (2.15.0):
+    - KakaoSDKCommon/Common (= 2.15.0)
+    - KakaoSDKCommon/Network (= 2.15.0)
+  - KakaoSDKCommon/Common (2.15.0)
+  - KakaoSDKCommon/Network (2.15.0):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.15.0)
+  - KakaoSDKUser (2.15.0):
+    - KakaoSDKAuth (= 2.15.0)
   - libevent (2.1.12)
   - RCT-Folly (2021.07.22.00):
     - boost
@@ -506,7 +521,11 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - fmt
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKUser
     - libevent
     - SocketRocket
 
@@ -610,6 +629,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   boost: 57d2868c099736d80fcd648bf211b4431e51a558
   DoubleConversion: 5189b271737e1565bdce30deb4a08d647e3f5f54
   EXApplication: 042aa2e3f05258a16962ea1a9914bf288db9c9a1
@@ -617,7 +637,7 @@ SPEC CHECKSUMS:
   EXFileSystem: f8b838a880254de42a5a7da20ed5ce12e2697c1b
   EXFont: 738c44c390953ebcbab075a4848bfbef025fd9ee
   Expo: 61a8e1aa94311557c137c0a4dfd4fe78281cfbb4
-  ExpoKakaoSdk: 72ced624060af3183c0cde49847c456eb2d427a0
+  ExpoKakaoSdk: 5da5f6c96f4b0721b7a7ff0566ba5c5bc6a14942
   ExpoKeepAwake: be4cbd52d9b177cde0fd66daa1913afa3161fc1d
   ExpoModulesCore: c480fd4e3c7c8e81f0a6ba3a7c56869f25fe016d
   EXSplashScreen: c0e7f2d4a640f3b875808ed0b88575538daf6d82
@@ -626,6 +646,9 @@ SPEC CHECKSUMS:
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 8057e75cfc1437b178ac86c8654b24e7fead7f60
+  KakaoSDKAuth: 0fe5cf1756e8a9f66f8fc77826061aafa93034f3
+  KakaoSDKCommon: 89d863b7f34398e6fb93a0acb28a204908551a39
+  KakaoSDKUser: a997ca5c4c18ece2ab30646ff74841bc29d4399d
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: 28469809442eb4eb5528462705f7d852948c8a74

@@ -1,7 +1,8 @@
 {
   "platforms": ["ios", "android", "web"],
   "ios": {
-    "modules": ["ExpoKakaoSdkModule"]
+    "modules": ["ExpoKakaoSdkModule"],
+    "appDelegateSubscribers": ["KakaoDelegate"]
   },
   "android": {
     "modules": ["expo.modules.kakaosdk.ExpoKakaoSdkModule"]
