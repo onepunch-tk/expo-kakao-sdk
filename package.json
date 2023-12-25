@@ -1,0 +1,42 @@
+{
+  "name": "expo-kakao-sdk",
+  "version": "0.1.0",
+  "description": "Kakao SDK for Expo",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-kakao-sdk",
+    "ExpoKakaoSdk"
+  ],
+  "repository": "https://github.com/onepunch-tk/expo-kakao-sdk",
+  "bugs": {
+    "url": "https://github.com/onepunch-tk/expo-kakao-sdk/issues"
+  },
+  "author": "TaekyungHa <86tkstar@gmail.com> (https://github.com/onepunch-tk)",
+  "license": "MIT",
+  "homepage": "https://github.com/onepunch-tk/expo-kakao-sdk#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.0.11",
+    "expo-modules-core": "^1.5.11"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

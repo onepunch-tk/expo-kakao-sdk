@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-kakao-sdk": ["../src/index"],
+      "expo-kakao-sdk/*": ["../src/*"]
+    }
+  }
+}
