@@ -3,6 +3,7 @@
     "name": "expo-kakao-sdk-example",
     "slug": "expo-kakao-sdk-example",
     "version": "1.0.0",
+    "plugins": [["../app.plugin.js", { "apiKey": "84ef51d482ed475a42ab98f9a46bb0e5" }]],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
